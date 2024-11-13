@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUNGGU</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="success-container">
+        <h2>Login Berhasil!</h2>
+        <p>Anda telah berhasil login.</p>
+        <p id="timer">Anda akan diarahkan ke mediafire dalam <span id="countdown">5</span> detik.</p>
+        <a href="index.html">Kembali</a>
+    </div>
+
+    <script>
+        // Timer untuk menghitung mundur
+        let countdownElement = document.getElementById('countdown');
+        let countdown = 5;
+
+        const timer = setInterval(() => {
+            countdown--;
+            countdownElement.innerText = countdown;
+
+            // Setelah 5 detik, arahkan ke MediaFire
+            if (countdown <= 0) {
+                clearInterval(timer);
+                window.location.href = "mediafire.html"; // Ganti dengan tautan yang Anda inginkan
+            }
+        }, 1000); // Hitung mundur setiap detik
+    </script>
+</body>
+</html>

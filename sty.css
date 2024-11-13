@@ -1,0 +1,95 @@
+/* Reset default margin/padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 50px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+  }
+  
+  header .logo h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .intro {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .intro h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .intro p, .intro ul {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .intro ul {
+    list-style-type: none;
+  }
+  
+  .intro li {
+    margin-bottom: 10px;
+  }
+  
+  /* CTA Button (Download) */
+  .cta {
+    margin-top: 30px;
+  }
+  
+  .download-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 25px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .download-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  

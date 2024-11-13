@@ -1,0 +1,56 @@
+/* Reset default margin/padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Countdown Container */
+  .countdown-container {
+    text-align: center;
+    background-color: #2d88ff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    width: 300px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .countdown {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #ffcc00;
+  }
+  
+  p {
+    font-size: 16px;
+    color: white;
+  }
+  
+  a {
+    color: #ffcc00;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
